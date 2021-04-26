@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<!-- This is my login page
+by Bobby Smith
+email
+CS102 SP2021 Wk3-1
+-->
+
+
+<head>
+    <!--name of js used for log in-->
+    <script src="Loginwk3.js"></script>
+    <!--header-->
+    <title>
+        UATSpace login
+
+    </title>
+</head>
+
+
+<body>
+    <!--title of page-->
+    <h1>
+        Welcome to UATSpace login
+
+    </h1>
+    <p id="loginStatus">
+        status on login...
+    </p>
+    <br>
+    <form id="creditSubmit" onsubmit="return false">
+        <!--this represents the typed data field for the login usng first name last name and badge number-->
+        First Name: <input type="text" is id="fName" /><br>
+        Last Name: <input type="text" is id="lName" /><br>
+        Badge Number:<input type="number" is id="badgeID" /><br>
+        <input type="submit" onclick="checkCreds();" />
+    </form>
+
+</html>

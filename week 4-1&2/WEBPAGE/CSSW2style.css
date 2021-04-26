@@ -1,0 +1,28 @@
+body {
+    background-color:goldenrod;
+    background-image: linear-gradient(90deg, goldenrod 0%, rgb(66, 122, 21) );
+    
+    }
+    
+    
+    .button{
+    background-color: white;
+    width: 100px;
+    height: 30px ;
+    border-radius: 12px;
+    border-color: green
+    }
+    
+    
+    .lgbutton{
+        background-color: orange;
+        width: 150px;
+        height: 30px ;
+        border-radius: 12px;
+        border-color: green
+        }
+        .mainTable{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+        
